@@ -11,9 +11,7 @@ pipeline {
       steps {
         echo "This is Test stage"
   }
-  
-  }
-      
+  } 
       stages {
     stage ('Test') {
       steps {
@@ -21,4 +19,3 @@ pipeline {
         }
      }
   }
-    }
